@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevProfile | GitHub Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>devfinder</h1>
+            </header>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="user-input" placeholder="Search GitHub username...">
+            <button id="search-btn">Search</button>
+            <p id="no-results">No results</p>
+        </div>
+
+        <main id="profile-card">
+            <div class="profile-header">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Avatar" class="avatar">
+                <div class="user-info">
+                    <div class="name-box">
+                        <h2 id="name">The Octocat</h2>
+                        <span id="date">Joined 25 Jan 2011</span>
+                    </div>
+                    <a href="https://github.com/octocat" target="_blank" id="username">@octocat</a>
+                </div>
+            </div>
+
+            <p id="bio">This profile has no bio</p>
+
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h4>Repos</h4>
+                    <p id="repos">8</p>
+                </div>
+                <div class="stat-box">
+                    <h4>Followers</h4>
+                    <p id="followers">3938</p>
+                </div>
+                <div class="stat-box">
+                    <h4>Following</h4>
+                    <p id="following">9</p>
+                </div>
+            </div>
+
+            <div class="links-container">
+                <div class="link-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span id="location">San Francisco</span>
+                </div>
+                <div class="link-item">
+                    <i class="fab fa-twitter"></i>
+                    <span id="twitter">Not Available</span>
+                </div>
+                <div class="link-item">
+                    <i class="fas fa-link"></i>
+                    <a href="#" id="website">https://github.blog</a>
+                </div>
+                <div class="link-item">
+                    <i class="fas fa-building"></i>
+                    <span id="company">@github</span>
+                </div>
+            </div>
+            <div id="repos-list"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

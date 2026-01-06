@@ -22,5 +22,9 @@ A professional, responsive web application that utilizes the **GitHub REST API**
    ```bash
    git clone [https://github.com/your-username/DevProfile.git](https://github.com/your-username/DevProfile.git)
 
+<img width="1913" height="909" alt="Screenshot 2026-01-06 230336" src="https://github.com/user-attachments/assets/88b37e69-70b2-452c-84bf-033c681a598c" />
+   
+
+
 
    

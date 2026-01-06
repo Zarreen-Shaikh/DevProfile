@@ -3,7 +3,7 @@
 A professional, responsive web application that utilizes the **GitHub REST API** to fetch and display developer profiles in real-time. Built to demonstrate asynchronous JavaScript handling, DOM manipulation, and modern CSS layout techniques.
 
 ## 🚀 Live Demo
-**[Link to Live Site]** (You will get this link in Step 3 below)
+**[Link to Live Site]**  https://zarreen-shaikh.github.io/DevProfile/
 
 ## ✨ Key Features
 - **Real-time API Integration:** Fetches user data (Bio, Repos, Followers) using `async/await` and the Fetch API.
@@ -27,4 +27,4 @@ A professional, responsive web application that utilizes the **GitHub REST API**
 
 
 
-   
+
